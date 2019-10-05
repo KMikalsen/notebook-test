@@ -12,12 +12,13 @@
     },
     "content_scripts":[{
         "all_frames":false,
-        "js":["content_script.js"],
-        "matches":["https://www.mlb.com/live-stream-games"],
+        "js":["content_script.js", "moment.min.js", "moment-timezone-with-data-10-year-range.min.js"],
+        "matches":["https://www.mlb.com/live-stream-games/"],
         "run_at":"document_idle"
     }],
     "web_accessible_resources":[
-        "moment.min.js"
+        "moment.min.js",
+        "moment-timezone-with-data-10-year-range.min.js"
     ],
     "manifest_version":2
 }
