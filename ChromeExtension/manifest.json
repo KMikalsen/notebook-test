@@ -16,5 +16,8 @@
         "matches":["https://www.mlb.com/live-stream-games"],
         "run_at":"document_idle"
     }],
+    "web_accessible_resources":[
+        "moment.min.js"
+    ],
     "manifest_version":2
 }
